@@ -15,11 +15,13 @@ function Sidebar() {
         <Sidebaroptions title = "Search" Icon= {SearchIcon} />
         <Sidebaroptions title = "Your Library" Icon= {LibraryMusicIcon}/>
         <br />
-        <strong className="sidebar-title">PLAYLISTS</strong>
-        <Sidebaroptions title = "Rock" />
-        <Sidebaroptions title = "HipHop" />
-        <Sidebaroptions title = "RnB" />
+        <strong className="sidebar-title">PLAYLISTS</strong>       
         <hr />
+        {playlists?.items?.map(playlists=>(
+            <Sidebaroptions title = {playlists.name}/>
+        )
+        )}
+
 
         </div>
     )

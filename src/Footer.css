@@ -1,8 +1,63 @@
-.footer{
+.footer {
     position: fixed;
+    display: flex;
+    justify-content: space-between;
     bottom: 0;
+    padding: 20px;
     height: 65px;
-    width: 100%;
+    width: 97%;
     background-color: #282828;
-    padding: 10px;
+  }
+.footer-left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+}
+.footer-center {
+    flex: 0.4;
+    max-width: 300px;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex: 0.3;
+}
+.footer-right * .MuiSlider-root{
+    color: white;
+}
+.footer-right * .MuiSlider-root :hover{
+    color: #1ed15e;
+}
+
+.footer-songlogo{
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+.song-info{
+    color: white;
+}
+.song-info>h4{
+    margin-bottom: 5px;
+}
+.song-info > p{
+    font-size: 12px;
+}
+.footer-green {
+    color: #1ed15e;
+  }
+.footer-green:hover ,
+.footer-icon:hover{
+    transition: transform 0.2s ease-in-out ;
+    transform:  scale(1.2) !important;
 }
