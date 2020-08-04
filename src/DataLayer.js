@@ -8,7 +8,7 @@ export const  DataLayer  = ({initialState ,reducer,children}) => (
             children
         }
     </DataLayerContext.Provider>
-)
-
+);
+export const useDataLaterValue =() => useContext(DataLayerContext);
 
 
