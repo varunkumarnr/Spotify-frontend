@@ -12,7 +12,7 @@ Using Spotify authentication
 Deployed using firebase :  https://spotify-clone-816a1.web.app/
 
 [<img alt='Sample 1'  src='https://github.com/varunkumarnr/Spotify-frontend/blob/master/src/images/spotify.jpg'/>](https://spotify-clone-816a1.web.app/)
-[<img alt='Sample 1'  src='https://photos.google.com/search/_tra_/photo/AF1QipMwnz2NG9RLDQrq5Sv_dn7XcU5szy7PIcXG8prm'/>](https://spotify-clone-816a1.web.app/)
+[<img alt='Sample 1'  src='https://github.com/varunkumarnr/Spotify-frontend/blob/master/src/images/%7B873C895B-B550-470D-8E44-152EE41C8A45%7D.png.jpg'/>](https://spotify-clone-816a1.web.app/)
 
 
 
